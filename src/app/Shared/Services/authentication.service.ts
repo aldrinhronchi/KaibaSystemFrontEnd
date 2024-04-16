@@ -1,11 +1,12 @@
 import { Injectable } from "@angular/core";
 import { HttpClient } from "@angular/common/http";
-import { Usuario } from "../../Models/Usuario/Usuario";
-import { RequisicaoViewModel } from "../../Models/Views/RequesicaoViewModel";
+
 import { LoginViewModel } from "../../Models/Views/LoginViewModel";
 import { PageMenu } from "../../Models/Views/PageMenu";
 import { Subject } from "rxjs";
 import { EnvironmentUrlService } from "./environment-url.service";
+import { Usuario } from "../../Models/Usuario/Usuario";
+import { RequisicaoViewModel } from "../../Models/Views/RequisicaoViewModel";
 
 @Injectable({
 	providedIn: "root",
